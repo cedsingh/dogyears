@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-wdith, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="dog.js"></script>
+	<title>Dog Year Calculator</title>
+</head>
+<body>
+	<main class="wrapper">
+		<div class="calc-area">
+			<h3>Know Your Dog Years</h3>
+			<img src="rsz_dogbg.jpg" style="width: 100%; margin-top: 10px">
+			<form class="form" onsubmit="return getResult();" method="post">
+				<p>Enter your age</p>
+				<input id="years" type="number" name="years" min="0" placeholder="YY">
+				<input id="months" type="number" name="years" max="12" min="0" placeholder="MM">
+				<input type="image" src="paw.png" name="submit" value="DOGIFY ME">
+			</form>
+			<img src="dog.svg" class="dog" width="150" height="150">
+			<div id="dogAge">Your dog years appears here!</div>
+		</div>
+	</main>
+</body>
+</html>
